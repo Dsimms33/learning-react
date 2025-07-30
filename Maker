@@ -7,8 +7,14 @@ def generate_password(length=12):
     return password
 
 if __name__ == "__main__":
-    length = int(input("Enter password length:"))
-    print("Generated password:", generate_password())
+    length = int(input("Enter password length: "))
+    password = generate_password(length)
+    print("Generated password:", password)
+    # Save the password to a file
+    with open("password.txt", "w") as f:
+        f.write(password)
+    print("Password saved to password.txt")
+
 
 
 
