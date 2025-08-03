@@ -17,7 +17,7 @@ A simple Python script to generate a random password and save it to a file.
 ## Example
 
 ```
-Enter password length: 16
+Enter password length: 9
 Generated password: 8#kL!2v@xQz1$wP&
 Password saved to generated_password.txt
 ```
